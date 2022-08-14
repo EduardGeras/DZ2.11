@@ -9,7 +9,7 @@ import prosky.dz2_11.service.BasketService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/store/order")
+@RequestMapping("/order")
 public class BasketController {
     private final BasketService basketService;
 
